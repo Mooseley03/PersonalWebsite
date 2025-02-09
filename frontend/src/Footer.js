@@ -2,9 +2,15 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 
 export default function Footer({ viewer, setViewer }) {
+    
+    const styles = {
+        sectionStyle: {
+            borderTop: "3px solid #3498DB"
+        }
+    };
 
     return (
-        <div>
+        <div style={styles.sectionStyle}>
             <footer style={{ backgroundColor: '#FAFAFA', color: '#34495E' }} className="py-5">
                 <div className="container">
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 0, paddingBottom: 0 }}>
@@ -30,7 +36,7 @@ export default function Footer({ viewer, setViewer }) {
                     </div>
 
                     {/* Copyright notice */}
-                    <div style={{ textAlign: 'center', marginTop: '20px' }}>
+                    <div style={{ textAlign: 'center', marginTop: '0px' }}>
                         <p style={{ color: '#34495E' }}>© 2025 Chris Moseley. All Rights Reserved.</p>
                     </div>
                 </div>
