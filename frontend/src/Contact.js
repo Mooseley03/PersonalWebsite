@@ -57,10 +57,12 @@ export default function Contact({ viewer, setViewer, isExpanded, setIsExpanded }
 
   const sectionTitleStyles = {
     color: "#FAFAFA",
+    textAlign: "center"
   };
 
   const sectionTextStyles = {
-    color: "#FAFAFA"
+    color: "#FAFAFA",
+    textAlign: "center"
   };
 
   const formStyles = {
@@ -91,7 +93,7 @@ export default function Contact({ viewer, setViewer, isExpanded, setIsExpanded }
 
   const buttonStyles = {
     padding: "10px",
-    backgroundColor: "#3498db",
+    backgroundColor: "#3498DB",
     color: "white",
     border: "none",
     borderRadius: "5px",

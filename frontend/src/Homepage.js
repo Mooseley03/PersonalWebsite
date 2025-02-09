@@ -13,7 +13,7 @@ export default function Homepage({ viewer, setViewer, isExpanded, setIsExpanded 
         },
         heroSection: {
             backgroundColor: "#2C3E50",  // Dark blue for the hero section background
-            padding: "50px 20px",
+            padding: "10px 20px",
             textAlign: "center",
             color: "#FAFAFA",  // Light text to contrast with the dark background
         },
@@ -31,14 +31,15 @@ export default function Homepage({ viewer, setViewer, isExpanded, setIsExpanded 
             color: "#FAFAFA",  // Light text color
         },
         introSection: {
-            backgroundColor: "#FAFAFA",  // Off-white background for the intro section
+            backgroundColor: "#2C3E50",  // Off-white background for the intro section
             padding: "40px 20px",
             textAlign: "center",
         },
         introHeading: {
             fontSize: "2rem",
             marginBottom: "20px",
-            color: "#34495E",  // Dark gray for a professional feel
+            color: "#FAFAFA",  // Dark gray for a professional feel
+            // color: "#34495E"
         },
         introParagraph: {
             fontSize: "1.125rem",
@@ -46,7 +47,7 @@ export default function Homepage({ viewer, setViewer, isExpanded, setIsExpanded 
             maxWidth: "1000px",
             marginLeft: "auto",
             marginRight: "auto",
-            color: "#34495E",  // Dark gray for paragraph text
+            color: "#FAFAFA",  // Dark gray for paragraph text
         },
         circularImage: {
             width: "300px", // Set desired size

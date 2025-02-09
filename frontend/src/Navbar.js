@@ -7,8 +7,15 @@ export default function Navbar({ viewer, setViewer }) {
         setViewer(number);
     };
 
+    const styles = {
+        sectionStyle: {
+            borderBottom: "3px solid #3498DB", // Set border-bottom with thickness, style, and color
+        }
+    };
+    
+
     return (
-        <div>
+        <div style={styles.sectionStyle}>
             <nav className="navbar navbar-expand-lg" style={{ backgroundColor: '#FAFAFA' }}>
                 <div className="container-fluid">
 

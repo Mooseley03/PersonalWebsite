@@ -87,7 +87,7 @@ export default function Skills({ viewer, setViewer, isExpanded, setIsExpanded })
     color: "#2C3E50",
     padding: "20px",
     borderRadius: "10px",
-    boxShadow: "0 4px 6px rgba(0, 0, 0, 0.2)",
+    boxShadow: "0 4px 6px #3498DB",
     width: "calc(25% - 20px)",
     minWidth: "250px",
     height: "auto",
@@ -108,13 +108,12 @@ export default function Skills({ viewer, setViewer, isExpanded, setIsExpanded })
     color: "#A2C7E1", // Light Blue for hover state
   };
 
-  const footerStyles = {
-    marginTop: "50px",
-    textAlign: "center",
-    paddingTop: "3px",
-    backgroundColor: "#3498DB",
-    color: "white",
-  };
+//   const footerStyles = {
+//     marginTop: "50px",
+//     textAlign: "center",
+//     paddingTop: "3px",
+//     color: "white",
+//   };
 
   // Function to group cards into rows of up to 4 cards per row
   const createRows = (data) => {
@@ -211,7 +210,8 @@ export default function Skills({ viewer, setViewer, isExpanded, setIsExpanded })
         </section>
       </div>
 
-      <footer style={footerStyles}>
+        <footer>
+      {/* <footer style={footerStyles}> */}
         <Footer />
       </footer>
     </div>
