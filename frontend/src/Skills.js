@@ -108,13 +108,6 @@ export default function Skills({ viewer, setViewer, isExpanded, setIsExpanded })
     color: "#A2C7E1", // Light Blue for hover state
   };
 
-//   const footerStyles = {
-//     marginTop: "50px",
-//     textAlign: "center",
-//     paddingTop: "3px",
-//     color: "white",
-//   };
-
   // Function to group cards into rows of up to 4 cards per row
   const createRows = (data) => {
     const rows = [];
